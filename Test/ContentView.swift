@@ -14,7 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
-            Button("Press me") {
+            Button("Start Chat") {
                 print("button pressed")
                 // 1. login with token
                 let jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImFwcF82NTA4MDE3ODA0MTAwMGYwNmUyZDJiZDIifQ.eyJzY29wZSI6ImFwcFVzZXIiLCJpYXQiOjE3MDE4MzMxNjYsInVzZXJJZCI6Ijk3ODA1NzQ3LTFkMjAtNGFjMy04MTYyLTQ2NDdiMTg5MmQ0MSIsImV4cCI6MTcwMTgzMzc2Nn0.7ZZ8LHN15UddWlcYnsLXmtaMqYrAHEFc9Y-QqU-vosM"
